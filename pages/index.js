@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Counter from '../components/Counter';
 
 export default function Home() {
   return (
@@ -9,8 +10,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1 className={styles.title}>
-          Gwendolyn Solberg <a href="https://nextjs.org">Next.js!</a>
+          Gwendolyn Solberg
       </h1>
+      <Counter />
     </div>
   );
 }
