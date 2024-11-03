@@ -26,7 +26,22 @@ a {
   box-sizing: border-box;
 }
 
+a{
+  color:blue;
+}
+
 img {
   max-width: 100%;
   height: auto;
+}
+.gridContainer{
+  display:grid;
+  width:100%;
+  gap: 30px;
+  grid-template-columns: auto auto auto;
+}
+.gridItem{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
 }
